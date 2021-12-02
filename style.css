@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+._title{
+	font-family: 'Anton', sans-serif;
+	font-size: 2.5rem;
+	color: var(--text-color);
+}
+
+._input_search{
+	font-size: 1.5rem;
+}
+
+._linkWiki{
+	color: var(--text-card-color);
+}
+
+._linkWiki:hover{
+	color:  var(--text-card-color);
+	text-decoration: none;
+}
+
+.card-title{
+	font-family: 'Manrope', sans-serif;
+	font-weight: bold;
+}
+.card-text{
+	font-family: 'Rubik', sans-serif;
+}
+
+.btn-toggle {
+    position: fixed !important;
+    top: 2rem;
+    right: 2rem;
+    display: block;
+	background-color: transparent;
+	width: 5rem;
+	height: 5rem;
+	border: 0;
+	outline: none;
+	z-index: 1;
+}
+.btn-toggle,
+.btn-toggle:active,
+.btn-toggle:focus {
+  outline: none;
+}
+
+.btn-toggle span{
+	font-size: 5rem;
+	color: var(--bg-button-color);
+}
+
+.card{
+	background-color: var(--card-bg-color) !important;
+}
+
+.card:hover{
+	transform: scale(1.1); 
+}
+
+.dark-theme {
+	--bg-button-color: #eee;
+	--text-color: #eee;
+	--bkg-color: #141945;
+	--text-card-color: white;
+	--card-bg-color: #1E3163;
+}
+
+.light-theme {
+	--bg-button-color: #141945;
+	--text-color: #222;
+	--bkg-color: #fff;
+	--text-card-color: black;
+	--card-bg-color: #D8E3E7;
+}
+
+body {
+	background: var(--bkg-color);
+}
+  
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #577BC1;
+	color: white;
+	text-align: center;
+ }
